@@ -12,4 +12,4 @@ spring:
         dialect: org.hibernate.community.dialect.SQLiteDialect
     open-in-view: false
 
-#TODO: Add OpenRouter config
+#TODO 2: add SpringAI configuration properties here
