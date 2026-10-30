@@ -11,5 +11,9 @@ spring:
       hibernate:
         dialect: org.hibernate.community.dialect.SQLiteDialect
     open-in-view: false
-
-#TODO 2: add SpringAI configuration properties here
+  ai:
+    ollama:
+      base-url: http://localhost:11434
+      chat:
+        options:
+          model: ${OLLAMA_MODEL:llama3.2}
